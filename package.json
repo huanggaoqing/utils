@@ -1,0 +1,37 @@
+{
+  "name": "utils",
+  "version": "1.0.6",
+  "description": "奇奇怪怪的一些小工具",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build:types": "tsc",
+    "build": "npm run build:types && rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils",
+    "js-tools",
+    "toolkit",
+    "rollup",
+    "typescript"
+  ],
+  "author": "huanggaoqing",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "rollup": "^2.70.2",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^28.0.7",
+    "tslib": "^2.3.1",
+    "typescript": "^5.4.5"
+  }
+}
